@@ -43,6 +43,7 @@ export const Content = styled.div`
   div {
     display: flex;
     flex-direction: column;
+    margin: 6px 0 0 5px;
 
     strong {
       font-size: 14px;
