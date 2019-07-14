@@ -2,7 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  aside.profile {
+    width: 33.3%;
+  }
+  aside.amigos {
+    width: 33.3%;
+  }
 `;

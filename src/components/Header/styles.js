@@ -10,6 +10,8 @@ export const NavBar = styled.nav`
   justify-content: space-between;
   align-items: center;
   flex: 1;
+  z-index: 1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 
   h1 {
     font-size: 24px;

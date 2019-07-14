@@ -1,11 +1,19 @@
 import React from 'react';
-import Header from '../../components/Header';
+
 import { Container } from './styles';
+
+import Header from '../../components/Header';
+import PostList from '../../components/PostList';
 
 export default function Main() {
   return (
-    <Container>
+    <>
       <Header />
-    </Container>
+      <Container>
+        <aside className="profile" />
+        <PostList />
+        <aside className="amigos" />
+      </Container>
+    </>
   );
 }
